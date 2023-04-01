@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: rgb(237, 219, 195);
+   margin: 20px;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    max-width: min-content;
+    
+}
+p{
+    font-size: 30px;
+}
+.container{
+    margin: 20px 0px 20px 0px;
+}
+.container input{
+    padding: 8px;
+    margin-right:10px ;
+    border-radius: 10px;
+}
+button{
+    padding:10px;
+    margin-left: 10px;
+    border-radius: 7px;
+
+}
+
+.details input{
+    margin: 10px;
+    height: 35px;
+    border-radius:10px ;
+    
+}
+.leak input{
+    margin: 10px;
+    height: 35px;
+    border-radius:10px ;
+
+}
+.submit{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.submit :hover{
+    background-color: aqua;
+}
+h1{
+    padding: 10px;
+    font-size: 40px;
+    
+}
